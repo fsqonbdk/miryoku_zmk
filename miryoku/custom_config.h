@@ -15,14 +15,20 @@
 #define MIRYOKU_KLUDGE_BOTTOMROWCOMBOS
 
 
-// #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH_FLIP \
-// changed to Dhorf-awmod
-
+// Dhorf-awmod4
 #define MIRYOKU_LAYER_BASE \
-&kp Z,             &kp L,             &kp H,             &kp K,             &kp Q,             &kp J,             &kp F,             &kp O,             &kp U,             &kp COMMA,          \
-U_MT(LGUI, S),     U_MT(LALT, R),     U_MT(LCTRL, N),    U_MT(LSHFT, T),    &kp W,             &kp Y,             U_MT(LSHFT, C),    U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, A),      \
-U_LT(U_BUTTON, V), U_MT(RALT, X),     &kp M,             &kp D,             &kp B,             &kp P,             &kp G,             &kp SQT,           U_MT(RALT, SEMI),  U_LT(U_BUTTON, DOT),\
+&kp Z,             &kp H,             &kp L,             &kp K,             &kp Q,             &kp J,             &kp F,             &kp U,             &kp O,             &kp COMMA,          \
+U_MT(LGUI, S),     U_MT(LALT, R),     U_MT(LCTRL, N),    U_MT(LSHFT, T),    &kp W,             &kp Y,             U_MT(LSHFT, C),    U_MT(LCTRL, E),    U_MT(LALT, A),     U_MT(LGUI, I),      \
+U_LT(U_BUTTON, V), U_MT(RALT, X),     &kp M,             &kp D,             &kp B,             &kp G,             &kp P,             &kp SQT,           U_MT(RALT, SEMI),  U_LT(U_BUTTON, DOT),\
 U_NP,              U_NP,              U_LT(U_FUN, ESC),  U_LT(U_NUM, SPACE),U_LT(U_SYM, TAB),  U_LT(U_MOUSE, RET),U_LT(U_NAV, DEL),  U_LT(U_MEDIA, BSPC),U_NP,             U_NP
+
+
+// Dhorf-awmod1
+// #define MIRYOKU_LAYER_BASE \
+// &kp Z,             &kp L,             &kp H,             &kp K,             &kp Q,             &kp J,             &kp F,             &kp O,             &kp U,             &kp COMMA,          \
+// U_MT(LGUI, S),     U_MT(LALT, R),     U_MT(LCTRL, N),    U_MT(LSHFT, T),    &kp W,             &kp Y,             U_MT(LSHFT, C),    U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, A),      \
+// U_LT(U_BUTTON, V), U_MT(RALT, X),     &kp M,             &kp D,             &kp B,             &kp P,             &kp G,             &kp SQT,           U_MT(RALT, SEMI),  U_LT(U_BUTTON, DOT),\
+// U_NP,              U_NP,              U_LT(U_FUN, ESC),  U_LT(U_NUM, SPACE),U_LT(U_SYM, TAB),  U_LT(U_MOUSE, RET),U_LT(U_NAV, DEL),  U_LT(U_MEDIA, BSPC),U_NP,             U_NP
 
 // #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH_FLIP \
 // customized
