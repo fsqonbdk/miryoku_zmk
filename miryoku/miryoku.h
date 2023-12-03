@@ -26,7 +26,7 @@
 
 //original 200
 // #define U_TAPPING_TERM 200
-#define U_TAPPING_TERM 180
+#define U_TAPPING_TERM 220
 
 #include "miryoku_clipboard.h"
 
