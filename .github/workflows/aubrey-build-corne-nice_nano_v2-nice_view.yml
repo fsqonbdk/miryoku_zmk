@@ -60,5 +60,5 @@ jobs:
 #      Merge caksoylar, throws error
 #      branches: '["caksoylar/zmk/feat/mouse-keys-3.2"]'
 #
-#      Merge zmk main and caksoylar, throws error
+#      Merge zmk main and caksoylar, compiles but mouse does not appear to work
       branches: '["zmkfirmware/zmk/main caksoylar/zmk/feat/mouse-keys-3.2"]'
