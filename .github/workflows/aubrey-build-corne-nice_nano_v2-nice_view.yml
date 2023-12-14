@@ -50,9 +50,12 @@ jobs:
 #      Merge zmk main only, works
 #      branches: '["zmkfirmware/zmk/main"]'
 #
-#     Merge urob only, mouse keys and pointer support
-      branches: '["urob/zmk/mouse-3.2"]'
+#     Merge urob only, mouse keys and pointer support, works
+#      branches: '["urob/zmk/mouse-3.2"]'
 #
-#      Merge zmk main and urob
+#      Merge zmk main and urob, no longer works
 #      ZMK main now has mouse button support so urob throws error, but so does main so no mouse for the moment
 #      branches: '["zmkfirmware/zmk/main urob/zmk/mouse-3.2"]'
+#
+#      Merge zmk main and caksoylar
+      branches: '["zmkfirmware/zmk/main caksoylar/zmk/feat/mouse-keys-3.2"]'
