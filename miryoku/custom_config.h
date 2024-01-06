@@ -17,10 +17,10 @@
 
 // Dhorf-mod6
 #define MIRYOKU_LAYER_BASE \
-&kp Z,             &kp L,             &kp H,             &kp W,             &kp K,             &kp J,             &kp F,             &kp O,             &kp U,             &kp COMMA,          \
-U_MT(LGUI, S),     U_MT(LALT, R),     U_MT(LCTRL, N),    U_MT(LSHFT, T),    &kp B,             &kp Y,             U_MT(LSHFT, C),    U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, A),      \
-U_LT(U_BUTTON, V), U_MT(RALT, X),     &kp M,             &kp D,             &kp Q,             &kp G,             &kp P,             &kp SQT,           U_MT(RALT, DOT),  U_LT(U_BUTTON, SLASH),\
-U_NP,              U_NP,              U_LT(U_FUN, ESC),  U_LT(U_NUM, SPACE),U_LT(U_SYM, TAB),  U_LT(U_MOUSE, RET),U_LT(U_NAV, DEL),  U_LT(U_MEDIA, BSPC),U_NP,             U_NP
+&gresc,            &kp L,             &kp H,             &kp W,             &kp K,             &kp J,             &kp F,             &kp O,              &kp U,             &kp COMMA,          \
+U_MT(LGUI, S),     U_MT(LALT, R),     U_MT(LCTRL, N),    U_MT(LSHFT, T),    &kp B,             &kp Y,             U_MT(LSHFT, C),    U_MT(LCTRL, E),     U_MT(LALT, I),     U_MT(LGUI, A),      \
+U_LT(U_BUTTON, V), U_MT(RALT, X),     &kp M,             &kp D,             &kp Q,             &kp G,             &kp P,             &kp SQT,            U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
+U_NP,              U_NP,              U_LT(U_FUN, ESC),  U_LT(U_NUM, SPACE),U_LT(U_SYM, TAB),  U_LT(U_MOUSE, RET),U_LT(U_NAV, DEL),  U_LT(U_MEDIA, BSPC),U_NP,              U_NP
 
 
 // Dhorf-mod5
