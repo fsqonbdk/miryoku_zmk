@@ -180,7 +180,7 @@ MIRYOKU_X(GAME,   "Game")
 //#define DOTPLUS &dotplus
 / { \
   behaviors { \
-    gresc: gresc { \
+    dotplus: dot_plus { \
       compatible = "zmk,behavior-mod-morph"; \
       label = DOTPLUS; \
       #binding-cells = <0>; \
