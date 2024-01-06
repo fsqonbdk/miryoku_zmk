@@ -27,6 +27,9 @@ MIRYOKU_LAYER_LIST
 
 #include "miryoku_double_tap_guard.dtsi"
 
+//added by Aubrey
+#include "custom_keymap.dtsi
+
 #if defined (MIRYOKU_KLUDGE_MOUSEKEYSPR)
   #include "miryoku_kludge_mousekeyspr.dtsi"
 #else
