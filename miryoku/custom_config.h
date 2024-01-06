@@ -182,7 +182,7 @@ MIRYOKU_X(GAME,   "Game")
   behaviors { \
     dotplus: dot_plus { \
       compatible = "zmk,behavior-mod-morph"; \
-      label = DOTPLUS; \
+      label = "DOTPLUS"; \
       #binding-cells = <0>; \
       bindings = <&kp DOT>, <&kp PLUS>; \
       mods = <(MOD_LSFT|MOD_RSFT)>; \
