@@ -19,19 +19,5 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
-    dotplus: dot_plus {
-      compatible = "zmk,behavior-mod-morph";
-      #binding-cells = <0>;
-      bindings = <&kp DOT>, <&kp PLUS>;
-      mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-    };
-    commaminus: comma_minus {
-      compatible = "zmk,behavior-mod-morph";
-      #binding-cells = <0>;
-      bindings = <&kp COMMA>, <&kp MINUS>;
-      mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-    };
   };
 };
-
-// Aubrey additions: &dotplus, &commaminus
