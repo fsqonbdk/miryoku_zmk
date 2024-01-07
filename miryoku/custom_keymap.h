@@ -3,4 +3,4 @@
 
 #pragma once
 
-#define U_MTDP(MOD, TAP) &u_mtdp MOD TAP
+#define U_MTDP(MOD, TAP) &u_mtdp MOD 0
