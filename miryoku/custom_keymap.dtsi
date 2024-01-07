@@ -1,14 +1,14 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-/ { \
-  behaviors { \
-    dotplus: dotplus { \
-      compatible = "zmk,behavior-mod-morph"; \
-      label = "DOTPLUS"; \
-      #binding-cells = <0>; \
-      bindings = <&kp DOT>, <&kp PLUS>; \
-      mods = <(MOD_LSFT|MOD_RSFT)>; \
-    }; \
-  }; \
+/ {
+  behaviors {
+    dotplus: dotplus {
+      compatible = "zmk,behavior-mod-morph";
+      label = "DOTPLUS";
+      #binding-cells = <0>;
+      bindings = <&kp DOT>, <&kp PLUS>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+  };
 };
