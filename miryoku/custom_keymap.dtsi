@@ -12,6 +12,13 @@
       bindings = <&kp DOT>, <&kp PLUS>;
       mods = <(MOD_LSFT|MOD_RSFT)>;
     };
+    commaminus: commaminus {
+      compatible = "zmk,behavior-mod-morph";
+      label = "COMMAMINUS";
+      #binding-cells = <0>;
+      bindings = <&kp COMMA>, <&kp MINUS>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
     u_mtdp: u_mtdp {
       compatible = "zmk,behavior-hold-tap";
       label = "u_mtdp";
