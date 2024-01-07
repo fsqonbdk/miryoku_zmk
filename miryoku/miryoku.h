@@ -25,8 +25,11 @@
 #define U_NU &none // available but not used
 
 //original 200
-// #define U_TAPPING_TERM 200
+// #define U_TAPPING_TERM 200 added by Aubrey
 #define U_TAPPING_TERM 220
+
+// added by Aubrey
+#include "custom_keymap.h"
 
 #include "miryoku_clipboard.h"
 
